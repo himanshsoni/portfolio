@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    align-self: center;
+    color: rgb(46, 154, 173);
+
+}
+
+.header-container > h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.9em;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: rgb(46, 154, 173);
+    margin: 0;
+}
+
+.header-container > p {
+    /* font-family: Montserrat; */
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4em;
+    line-height: 1.4em;
+    text-align: center;
+    margin: 10px 0;
+}
+.photo{
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0,0.15);
+    margin: 12px;
+}
+
+@media only screen and (max-width: 640px) {
+    .header-container {
+        width: 80%;
+    }
+    .header-container > p {
+        font-size: 1.2em;
+        line-height: 1.2em;
+    }
+}
