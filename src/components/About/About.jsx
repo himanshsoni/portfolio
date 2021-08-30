@@ -18,7 +18,7 @@ const About = () => {
                 <div className='about-main-left'>
                     {/* Sub section 1 */}
                     <p className='about-details'>
-                    Hi, I am Himansh Soni, a Computer Science Engineering Student living in Udaipur, India. I am, currently working as a Software Enginerr at Apisero.Check
+                    Hi, I am Himansh Soni, a Computer Science Engineering Student living in Udaipur, India. I am, currently working as a Software Engineer at Apisero.Check
                         out{' '}
                         <Link to='/projects' className='about-link-element'>My Projects.</Link>
                     </p>
