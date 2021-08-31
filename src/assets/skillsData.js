@@ -16,27 +16,11 @@ export const skillList = [
         skillUrl: 'https://madhavbahl.tech/portfolio-assets/react.png',
     },
     {
-        skillName: 'Redux',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/redux.png',
-    },
-    {
         skillName: 'NodeJS',
         skillUrl: 'https://madhavbahl.tech/portfolio-assets/node.png',
     },
     {
-        skillName: 'TypeScript',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/ts.png',
-    },
-    // {
-    //     skillName: 'Java',
-    //     skillUrl: 'https://madhavbahl.tech/portfolio-assets/java.png',
-    // },
-    // {
-    //     skillName: 'C#',
-    //     skillUrl: 'https://madhavbahl.tech/portfolio-assets/cs.png',
-    // },
-    {
-        skillName: 'MongoDB',
-        skillUrl: 'https://madhavbahl.tech/portfolio-assets/mongo.png',
-    },
+        skillName:'Python',
+        skillUrl:'https://firebasestorage.googleapis.com/v0/b/portfolio-assets-580b7.appspot.com/o/python.png?alt=media&token=80ee3057-c54c-4246-8330-ca571b35dffa',
+    }
 ];
