@@ -11,7 +11,7 @@ const About = () => {
         <div className='section-container'>
             <Header
                 heading='About Me.'
-                details='Software Engineer'
+                details='Software Engineer|Coder'
             />
 
             <div className='about-main'>
