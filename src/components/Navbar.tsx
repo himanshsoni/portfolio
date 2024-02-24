@@ -1,18 +1,16 @@
 "use client";
 import React, { useState } from "react";
-import {
-  HoveredLink,
-  Menu,
-  MenuItem,
-  ProductItem,
-} from "@/components/ui/navbar-menu";
+import { HoveredLink, Menu, MenuItem } from "@/components/ui/navbar-menu";
 import { cn } from "@/utils/cn";
 import Link from "next/link";
 const Navbar = ({ className }: { className?: string }) => {
   const [active, setActive] = useState<string | null>(null);
   return (
     <div
-      className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50 text-2xl", className)}
+      className={cn(
+        "fixed top-10 inset-x-0 max-w-2xl mx-auto z-50 text-3xl",
+        className
+      )}
     >
       <Menu setActive={setActive}>
         <Link href="/">
@@ -36,14 +34,14 @@ const Navbar = ({ className }: { className?: string }) => {
             item="Projects"
           ></MenuItem>
         </Link>
-        <Link href={"/Skills"}>
+        <Link href={"/skills"}>
           <MenuItem
             setActive={setActive}
             active={active}
             item="Skills"
           ></MenuItem>
         </Link>
-        <Link href={"/Skills"}>
+        <Link href={"/contacts"}>
           <MenuItem
             setActive={setActive}
             active={active}
