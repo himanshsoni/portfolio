@@ -20,28 +20,28 @@ const Navbar = ({ className }: { className?: string }) => {
             item="Home"
           ></MenuItem>
         </Link>
-        <Link href={"/about"}>
+        <Link href={"#about"}>
           <MenuItem
             setActive={setActive}
             active={active}
             item="About"
           ></MenuItem>
         </Link>
-        <Link href={"/projects"}>
+        <Link href={"#projects"}>
           <MenuItem
             setActive={setActive}
             active={active}
             item="Projects"
           ></MenuItem>
         </Link>
-        <Link href={"/skills"}>
+        <Link href={"#skills"}>
           <MenuItem
             setActive={setActive}
             active={active}
             item="Skills"
           ></MenuItem>
         </Link>
-        <Link href={"/contacts"}>
+        <Link href={"#contact"}>
           <MenuItem
             setActive={setActive}
             active={active}
