@@ -7,8 +7,8 @@ const SkillsSection = () => {
         <section className="text-center ">
           <h1 className="text-3xl my-2 p-2"> My Skills</h1>
           <p className="text-2xl mt-5 p-2">
-            Passionate about new technologies, I keep exploring stuff. Here's
-            the tech stack I've worked with!
+            Passionate about new technologies, I keep exploring stuff. Here is
+            the tech stack I have worked with!
           </p>
         </section>
         <div className="flex justify-center items-center">
