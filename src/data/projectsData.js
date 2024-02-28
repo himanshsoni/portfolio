@@ -1,11 +1,18 @@
 export const projectsData = [
   {
     name: "Netflix GPT",
-    description:
-      "Netflix GPT, used OpenAI API for Movie recommendations",
+    description: "Netflix GPT, used OpenAI API for Movie recommendations",
     imageUrl:
       "https://firebasestorage.googleapis.com/v0/b/portfolio-assets-580b7.appspot.com/o/netflix-gpt.png?alt=media&token=3900b63c-54f2-47ca-a868-52d59e6054c3",
     liveUrl: "https://netflixx-gpt.netlify.app/",
+  },
+  {
+    name: "R&m Character App",
+    description:
+      "Rick and Morty characters based app which includes features like pagination and search",
+    imageUrl:
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-assets-580b7.appspot.com/o/R-M.png?alt=media&token=d7b7abe5-fe5a-446e-88bf-5f378cff7f88",
+    liveUrl: "https://r-m-character-app.vercel.app/",
   },
   {
     name: "Expense Tracker",
