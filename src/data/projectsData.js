@@ -4,12 +4,12 @@ export const projectsData = [
     description: "Netflix GPT, used OpenAI API for Movie recommendations",
     imageUrl:
       "https://firebasestorage.googleapis.com/v0/b/portfolio-assets-580b7.appspot.com/o/netflix-gpt.png?alt=media&token=3900b63c-54f2-47ca-a868-52d59e6054c3",
-    liveUrl: "https://netflixx-gpt.netlify.app/",
+    liveUrl: "https://netflix-gpt-eight-murex.vercel.app/",
   },
   {
     name: "R&m Character App",
     description:
-      "Rick and Morty characters based app which includes features like pagination and search",
+      "Rick and Morty characters-based app which includes features like pagination and search",
     imageUrl:
       "https://firebasestorage.googleapis.com/v0/b/portfolio-assets-580b7.appspot.com/o/R-M.png?alt=media&token=d7b7abe5-fe5a-446e-88bf-5f378cff7f88",
     liveUrl: "https://r-m-character-app.vercel.app/",
@@ -24,7 +24,7 @@ export const projectsData = [
   {
     name: "Story Share",
     description:
-      "Web App to Where User Can publish their Story as Public or Private database.",
+      "Web App to Where User Can Publish their Story as Public or Private Database.",
     imageUrl:
       "https://firebasestorage.googleapis.com/v0/b/portfolio-assets-580b7.appspot.com/o/storyshare.png?alt=media&token=74d120e6-0eef-455a-ae27-f94562b8d13f",
     liveUrl: "https://embarrassed-slippers-lion.cyclic.app/",
@@ -48,7 +48,7 @@ export const projectsData = [
   {
     name: "Attendance Management System",
     description:
-      "This is a web application based on django backend and for frontend purpose we have used HTML,CSS,BOOTSTRAP. It is an attendance management application through which teachers can record student's attendence date-wise. And students will be able to view their whole atttendance report. Both teachers and students can even download the attendence as well as reports.",
+      "This is a web application based on Django backend and for frontend purposes, we have used HTML, CSS, BOOTSTRAP. It is an attendance management application through which teachers can record student's attendance date-wise. And students will be able to view their whole atttendance report. Both teachers and students can even download the attendence as well as reports.",
     imageUrl:
       "https://firebasestorage.googleapis.com/v0/b/portfolio-assets-580b7.appspot.com/o/ss1.jpeg?alt=media&token=f155ec29-6b55-43bc-883f-73e365c13897",
     liveUrl: "https://github.com/himanshsoni/AttendanceManagement",
